@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'lbk-footer',
   template: `
-    <footer class="fixed bottom-0 z-50 mt-20 lg:mt-0">
-      <!-- <p class="text-center text-xs lg:fixed lg:bottom-0 lg:w-full">
+    <footer class="hidden lg:block lg:bottom-0 lg:left-0 lg:fixed lg:w-full">
+      <p class="text-white text-center text-[10px]">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
@@ -14,9 +14,7 @@ import { Component } from '@angular/core';
           href="https://github.com/lbk2knewlifegithub"
           >lbk2</a
         >.
-      </p> -->
-
-      <!-- <lbk-socials></lbk-socials> -->
+      </p>
     </footer>
   `,
 })

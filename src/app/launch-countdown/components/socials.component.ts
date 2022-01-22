@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'lbk-socials',
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <ul class=" text-xl gap-4 flex text-stone-500 lg:gap-8">
+    <ul class=" text-xl gap-4 flex text-stone-500 lg:gap-8 lg:text-[25px]">
       <li>
         <a routerLink="/">
           <span class=" fab fa-facebook-square"></span>

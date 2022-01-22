@@ -43,7 +43,7 @@ export class CountdownComponent implements OnInit {
   constructor(private readonly _cd: ChangeDetectorRef) {}
 
   ngOnInit(): void {
-    // this.tick();
+    this.tick();
   }
 
   tick() {
