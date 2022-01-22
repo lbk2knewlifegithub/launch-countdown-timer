@@ -1,0 +1,21 @@
+<lbk-digit class="main" [digit]="digit"></lbk-digit>
+
+<p>
+  {{ title }}
+</p>
+
+<div class="line"></div>
+
+<div class="top">
+  <lbk-digit [digit]="nextDigit"></lbk-digit>
+</div>
+
+<div [@flip]="state" (@flip.done)="done($event)" class="flip">
+  <div class="flip__face flip__face--front">
+    <lbk-digit [digit]="digit"></lbk-digit>
+  </div>
+
+  <div class="flip__face flip__face--back">
+    <lbk-digit [digit]="nextDigit"></lbk-digit>
+  </div>
+</div>

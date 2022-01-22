@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  body {
+    @apply font-mono font-bold bg-dark-900;
+  }
+  h1 {
+    @apply text-lg lg:text-xl;
+  }
+}
+
+@layer components {
+}
